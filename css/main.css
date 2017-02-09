@@ -369,6 +369,10 @@ progress::-moz-progress-bar {
 	position: absolute;	
 	text-align: center;		
 }
+.upcoming-project {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 /*CAPTION BUTTONS*/
 .button {
     background-color: #D32F2F;
