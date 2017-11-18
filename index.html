@@ -6,7 +6,48 @@
 		<title>ADAM SOWIŃSKI - PORTFOLIO</title>
 		<!--<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">-->
         <!--link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">-->
-        <link href='css/main.css' rel='stylesheet' type='text/css'>
+       
+		<style>
+			html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p{margin:0;padding:0;color:#333333;font-family:'Lato', sans-serif;}
+html{font-size:62.5%;}
+body{font-size:2rem;}
+.page-header{position:absolute;padding:20px;padding-top:28px;width:100%;box-sizing:border-box;}
+.page-header a .page-logo{width:100px;margin-top:-40px;}
+.page-nav .hamburger{display:inline-block;cursor:pointer;position:absolute;right:20px;border:0;top:20px;}
+.bar1, .bar2, .bar3{width:35px;height:5px;background-color:#333333;margin:6px 0;transition:0.4s;}
+.change .bar1{-webkit-transform:rotate(-45deg) translate(-9px, 6px);transform:rotate(-45deg) translate(-9px, 6px);}
+.change .bar2{opacity:0;}
+.change .bar3{-webkit-transform:rotate(45deg) translate(-8px, -8px);transform:rotate(45deg) translate(-8px, -8px);}
+.navigation-title{display:none;}
+.page-nav .navigation-menu{list-style:none;display:none;width:100%;text-align:center;}
+.page-nav .navigation-menu li{border-bottom:1px solid #F5F7F8;padding-top:15px;padding-bottom:15px;color:#000000;text-decoration:none;font-size:2rem;cursor:pointer;}
+.page-nav .navigation-menu li:hover{font-weight:bold;}
+.page-header.nav-opened{background:#FFFFFF;box-shadow:-1px 9px 19px -8px rgba(0, 0, 0,0.5);z-index:999;}
+.page-header.nav-opened .page-nav .navigation-menu{display:block;}
+.social-media{position:absolute;left:20px;top:20px;width:20vw;z-index:10;box-sizing:border-box;}
+.social-media img{width:5.5vw;opacity:0.7;margin:0;padding:0;}
+.social-media img:hover{opacity:1;}
+.welcome-top{box-sizing:border-box;background-color:#FFFFFF;padding:20px;padding-top:50px;max-height:100vh;border:1px solid #C0C0C0;display:flex;box-shadow:-1px 9px 19px -8px rgba(0, 0, 0,0.5);}
+.top-content{background-color:#FFFFFF;margin:10px auto;top:0;bottom:0;left:0;right:0;position:relative;max-height:80vh;}
+.top-name{font-family:'Josefin Sans', sans-serif;text-align:center;margin:0;margin-top:10px;margin-bottom:10px;font-size:10vw;text-transform:uppercase;font-weight:bold;}
+.hide{display:none;}
+.top-title{font-weight:300;text-align:center;border-top:1px solid #333333;border-bottom:1px solid #333333;padding:20px 8vw;margin:0 auto;font-size:5vw;animation-delay:1s;}
+.down-arrow{display:none;}
+.page-content{background-color:#FFFFFF;max-width:1020px;margin:0 auto;}
+.category-font{font-size:4rem;border-left:8px solid #D32F2F;padding-top:10px;padding-left:4px;margin-top:10px;margin-bottom:10px;}
+.horizontal-line{margin:25px 0;height:1px;background:#000000;background:-webkit-gradient(linear, 0 0, 100% 0, from(#FFFFFF), to(#FFFFFF), color-stop(50%, #C0C0C0));}
+.about-content{background-color:#FFFFFF;text-align:left;margin-top:20px;}
+.about-content p{font-size:2rem;text-indent:10px;}
+.about-box-container{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;justify-content:space-around;}
+.about-content h3{margin:10px 0;text-align:center;font-size:2.5rem;}
+.about-box{height:300px;width:300px;border:2px solid #C0C0C0;margin-top:10px;margin-bottom:20px;border-radius:8px;padding:0px;position:relative;overflow:hidden;box-sizing:border-box;}
+.about-box h4{text-align:center;font-size:2rem;margin-top:10px;}
+.about-box img{width:200px;height:200px;display:block;margin:0 auto;margin-top:30px;}
+.about-box .about-caption{cursor:default;position:absolute;opacity:0;-webkit-transition:all 0.45s ease-in-out;-moz-transition:all 0.45s ease-in-out;-o-transition:all 0.45s ease-in-out;-ms-transition:all 0.45s ease-in-out;transition:all 0.45s ease-in-out;top:0;width:100%;}
+.about-box .about-caption .about-blur{background-color:#FFFFFF;height:250px;width:300px;z-index:5;position:absolute;border-radius:8px;top:50px;}
+.about-box .about-caption .about-text-caption{color:#000000;z-index:10;position:absolute;height:250px;text-align:center;top:50px;}
+.about-box:hover .about-caption{opacity:1;}
+		</style>
          
        
 	</head>
@@ -358,6 +399,7 @@
 			</p>
 		</div>
 	</footer>
+		 <link href='css/main.css' rel='stylesheet' type='text/css'>
 		  <link href='css/animate.css' rel='stylesheet' type='text/css'>    
 		<!--SCRIPTS-->
 		 <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
