@@ -1,20 +1,20 @@
 ExpiresActive On
 # Specific file type expirations
 # My favicon
-ExpiresByType image/x-icon “access plus 1 year”
+ExpiresByType image/x-icon â€œaccess plus 10 minutesâ€
 # Images
-ExpiresByType image/gif “access plus 1 month”
-ExpiresByType image/png “access plus 1 month”
-ExpiresByType image/jpg “access plus 1 month”
-ExpiresByType image/jpeg “access plus 1 month”
+ExpiresByType image/gif â€œaccess plus 10 minutesâ€
+ExpiresByType image/png â€œaccess plus 10 minutesâ€
+ExpiresByType image/jpg â€œaccess plus 10 minutesâ€
+ExpiresByType image/jpeg â€œaccess plus 10 minutesâ€
 # CSS
-ExpiresByType text/css “access plus 2 week”
+ExpiresByType text/css â€œaccess plus 10 minutesâ€
 # Javascript
-ExpiresByType text/x-javascript “access 2 week”
-ExpiresByType text/javascript “access plus 2 weeks”
-ExpiresByType application/x-javascript “access plus 2 weeks”
+ExpiresByType text/x-javascript â€œaccess 10 minutesâ€
+ExpiresByType text/javascript â€œaccess plus 10 minutesâ€
+ExpiresByType application/x-javascript â€œaccess plus 10 minutesâ€
 # HTML and XML
-ExpiresByType text/html “access plus 2 weeks”
-ExpiresByType application/xhtml+xml “access plus 2 weeks”
+ExpiresByType text/html â€œaccess plus 10 minutesâ€
+ExpiresByType application/xhtml+xml â€œaccess plus 10 minutesâ€
 # Default file expirations
-ExpiresDefault “access plus 2 week”
+ExpiresDefault â€œaccess plus 10 minutesâ€
